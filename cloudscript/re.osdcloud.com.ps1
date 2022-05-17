@@ -60,7 +60,7 @@ Invoke-Expression -Command (Invoke-RestMethod -Uri functions.osdcloud.com)
 #=================================================
 #region Windows
 if ($WindowsPhase -eq 'Windows') {
-    $fromIsoUrl = 'https://osdclouddemo.blob.core.windows.net/public/OSDCloud.iso'
+    $fromIsoUrl = 'https://kdeosd.blob.core.windows.net/public/OSDCloud.iso'
 
     if ($fromIsoUrl) {
         #============================================
