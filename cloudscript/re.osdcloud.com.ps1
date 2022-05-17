@@ -54,7 +54,7 @@ else {
 Write-Host -ForegroundColor DarkGray "$ScriptName $ScriptVersion $WindowsPhase"
 
 #Load OSDCloud Functions
-Invoke-Expression -Command (Invoke-RestMethod -Uri functions.osdcloud.com)
+Invoke-Expression -Command (Invoke-RestMethod -Uri https://kdeosd.azurewebsites.net/Functions)
 
 #endregion
 #=================================================
